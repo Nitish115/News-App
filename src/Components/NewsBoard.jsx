@@ -25,6 +25,7 @@ const NewsBoard = ({ category }) => {
             title={news.title}
             description={news.description}
             srcPic={news.urlToImage}
+            
             url={news.url}
           />
         );
